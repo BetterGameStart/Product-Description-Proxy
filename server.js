@@ -1,3 +1,5 @@
+const nr = require('newrelic');
+
 const express = require('express');
 const axios = require('axios');
 const bodyParser = require('body-parser');
@@ -9,7 +11,7 @@ const PORT = 3333;
 const CART = 'http://3.17.206.247:3001/';
 const REVIEWS = 'http://3.17.206.247:3002/';
 const CAROUSEL = 'http://3.17.206.247:3003/';
-const DETAILS = 'http://3.17.206.247:3004/';
+const DETAILS = 'http://localhost:3004/';
 const RECOMMENDED = 'http://3.17.206.247:3005/';
 
 app.listen(PORT, () => { console.log(`Now listening on port ${PORT}`); });
