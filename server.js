@@ -17,6 +17,7 @@ const DETAILS = 'http://34.203.77.85:3004/';
 app.listen(PORT, () => { console.log(`Now listening on port ${PORT}`); });
 
 app.use('/games/:gameId', express.static('public/lib'));
+app.use('/', express.static('public/lib'));
 
 app.all('/reviews/:gameId', jsonParser, (req, res) => {
   const METHOD = req.method;
