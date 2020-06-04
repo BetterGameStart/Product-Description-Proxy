@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const jsonParser = bodyParser.json();
 const PORT = 3999;
-+69t CAROUSEL = 'http://3.17.206.247:3003/';
+const CAROUSEL = 'http://3.17.206.247:3003/';
 const DETAILS = 'http://34.203.77.85:3004/';
 // const RECOMMENDED = 'http://3.17.206.247:3005/';
 
