@@ -8,11 +8,11 @@ const app = express();
 const jsonParser = bodyParser.json();
 const PORT = 3333;
 
-const CART = 'http://3.17.206.247:3001/';
-const REVIEWS = 'http://3.17.206.247:3002/';
-const CAROUSEL = 'http://3.17.206.247:3003/';
-const DETAILS = 'http://localhost:3004/';
-const RECOMMENDED = 'http://3.17.206.247:3005/';
+// const CART = 'http://3.17.206.247:3001/';
+// const REVIEWS = 'http://3.17.206.247:3002/';
+// const CAROUSEL = 'http://3.17.206.247:3003/';
+const DETAILS = 'http://34.203.77.85:3004/';
+// const RECOMMENDED = 'http://3.17.206.247:3005/';
 
 app.listen(PORT, () => { console.log(`Now listening on port ${PORT}`); });
 
