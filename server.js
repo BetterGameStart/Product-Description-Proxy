@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const jsonParser = bodyParser.json();
-const PORT = 3333;
+const PORT = 3131;
 
 const CART = 'http://bgs-a2c-service-38140710.us-east-1.elb.amazonaws.com/games/1/';
 // const REVIEWS = 'http://3.17.206.247:3002/';
