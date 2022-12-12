@@ -27,7 +27,7 @@
     "axios": "^0.19.2",
     "babel-loader": "^8.0.6",
     "body-parser": "^1.17.2",
-    "express": "^4.15.4",
+    "express": "^4.17.3",
     "faker": "^4.1.0",
     "http-proxy-middleware": "^1.0.3",
     "mongoose": "^5.9.11",
